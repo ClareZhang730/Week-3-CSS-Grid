@@ -357,6 +357,49 @@ textarea {
 /* =============
     Header
 ============= */
+header #log-nav {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". logo-nav .";
+}
+header #log-nav > div {
+  grid-area: logo-nav;
+}
+
+#search {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
+}
+#search > div {
+  grid-area: search;
+}
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+
+/* =============
+    Articles
+============= */
+articles {
+  display: grid;
+  grid-template: 16px auto 16px;
+  grid-template-areas: ". articles. ";
+}
+
+/* =============
+    Hero
+============= */
+#hero aside {
+  display: grid;
+  grid-template: 16px auto 16px;
+  grid-template-areas: ". hero-aside .";
+}
+#hero aside > div {
+  grid-area: hero-aside;
+}

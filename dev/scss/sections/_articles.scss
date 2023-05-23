@@ -1,0 +1,9 @@
+/* =============
+    Articles
+============= */
+
+articles{
+    display: grid;
+    grid-template: 16px auto 16px;
+    grid-template-areas: ". articles. ";
+}
